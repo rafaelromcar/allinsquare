@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+}
+
+nav a {
+    background-color: beige;
+    border-radius: 25px;
+    text-align: center;
+    color: chocolate;
+    width: 150px;
+    margin: 5px;
+    
+}
+
+nav a:hover {
+    color: brown;
+}
