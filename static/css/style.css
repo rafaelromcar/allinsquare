@@ -1,17 +1,190 @@
+/*
+** GENERAL style
+*/
 body {
-    background-color: aquamarine;
+    background-color: white;
+    font: 15px arial, sans-serif;
 }
 
-nav a {
-    background-color: beige;
-    border-radius: 25px;
+div, body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 5px;
+    color: #366371;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrap {
+    width: 1040px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.verticalNav a {
+    display: block;
+}
+
+.textCenter {
     text-align: center;
-    color: chocolate;
+}
+
+.centerBlock {
+    width: 100%;
+}
+
+.threeColumnElement {
+    width: 33.33%;
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    color: #0C0C0C;
+}
+
+/*
+** HEADER style
+*/
+header {
+    background-color: #CAD346;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    border-bottom: 1px inset #366371;
+}
+
+#logo {
+    float: left;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+header nav {
+    padding-top: 30px;
+    padding-right: 25px;
+    float: right;
+}
+
+header nav a {
+    background-color: #366371;
+    color: #0C0C0C;
+    border-radius: 15px;
+    text-align: center;
     width: 150px;
     margin: 5px;
-    
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 2px #0C0C0C groove;
 }
 
-nav a:hover {
-    color: brown;
+header nav a:hover {
+    color: #9A2E1B;
+}
+
+header nav a:active {
+    background-color: #0C0C0C;
+}
+
+/*
+** CONTENT style
+*/
+
+#container {
+    padding-top: 15px;
+    min-height: 500px;
+}
+
+.errorSection {
+    float: left;
+    margin-right: 50px;
+}
+
+
+
+span {
+    color:red
+}
+h2 {
+    background-color:#FEFFED;
+    text-align:center;
+    border-radius:10px 10px 0 0;
+    margin:-10px -40px;
+    padding:15px
+}
+hr {
+    border:0;
+    border-bottom:1px solid #ccc;
+    margin:10px -40px;
+    margin-bottom:30px
+}
+#login {
+    width:300px;
+    float:left;
+    border-radius:10px;
+    font-family:raleway;
+    border:2px solid #ccc;
+    padding:10px 40px 25px;
+    margin:40px 370px;
+}
+input[type=text],input[type=password] {
+    width:99.5%;
+    padding:10px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    padding-left:5px;
+    font-size:16px;
+    font-family:raleway;
+}
+input[type=submit] {
+    width:100%;
+    background-color:#CAD346;
+    color:#fff;
+    border:2px solid #CAD346;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin:15px auto 5px;
+}
+
+/*
+** FOOTER style
+*/
+footer {
+    /*background-color: dimgray;*/
+
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    color: #0C0C0C;
+    /*bottom: 0;*/
+}
+
+.footerSection {
+    width: 300px;
+    border-top: 1px solid #0C0C0C;
+    text-align: center;
+    margin: 5px 0;
+}
+
+#project_details {
+    float: left;
+}
+
+#social_networks {
+    float: left;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+#additional_information {
+    float: right;
 }
